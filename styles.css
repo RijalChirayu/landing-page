@@ -123,4 +123,49 @@ button:active{
     color: #e5e7eb
 }
 
-.quote
+.quotebox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px ;
+    background-color: #e5e7eb;
+    
+}
+.quotebox blockquote i {
+    font-size: 36px;
+    color: #1f2937
+}
+.quotebox blockquote cite{
+    display: block;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.signup-wrapper{
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+    flex: 1 1 auto ;
+}
+
+.signup{
+    padding: 20px 30px ;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#e5e7eb; 
+    flex: 1 1 auto;
+    border-radius: 10px;
+
+}
+.signup .call strong{
+    display: block
+}
+.signup button{
+    border: 2px solid #e5e7eb
+}
