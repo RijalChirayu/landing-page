@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: auto ;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header , .footer{
+    font-family: Roboto;
+    background-color: #1f2937;
+    flex: 1 1 auto ;
+
+}
+.header {
+    padding: 20px 100px;
+    display: flex ;
+    flex-direction: column;
+}
+.header nav{
+    /* padding: 10px 50px;  */
+    display: flex ;
+    justify-content: space-between;
+}
+.left-link{
+    font-size: 24px ;
+    color: #F9FAF8 ;
+}
+
+.right-link li {
+ list-style: none;
+ padding: 0 ;
+ margin: 0
+}
+ a , .sub-text{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+ }
+
+.right-link ul{
+    display: flex ;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.header-content {
+    display: flex ;
+    justify-content: space-between;
+    padding: 50px 0px ;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.hero-text{
+    font-size: 48px ;
+    color:#F9FAF8 ;
+    font-weight: 900
+}
+
+button{
+ background-color: #3882f6;
+ border-radius: 10%;
+ color:#F9FAF8 ;
+ align-self: flex-start;
+ padding: 8px 10px;
+ border:none ;
+ 
+}
+button:active{
+    background-color: aqua;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 ;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px ;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto ;
+    font-family: Roboto;
+    gap: 50px
+}
+
+.info{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+
+}
+
+.cards{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 18px ; 
+ flex-wrap: wrap;
+}
+
+.cards img{
+    height:100px;
+    width: 100px;
+    border: 2px solid #3882f6 ;
+    border-radius: 10% ;
+}
+
+.card-one , .card-two , .card-three  , .card-four{
+    display:flex ;
+    flex-direction:column ; 
+    gap: 18px ;
+    font-size: 18px ;
+    color: #e5e7eb
+}
+
+.quote
