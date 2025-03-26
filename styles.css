@@ -153,19 +153,21 @@ button:active{
 }
 
 .signup{
+    
     padding: 20px 30px ;
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:#e5e7eb; 
+    color:#F9FAF8; 
     flex: 1 1 auto;
     border-radius: 10px;
+    flex-warp: wrap ;
 
 }
 .signup .call strong{
     display: block
 }
 .signup button{
-    border: 2px solid #e5e7eb
+    border: 2px solid #F9FAF8
 }
